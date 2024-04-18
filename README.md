@@ -8,13 +8,8 @@ DEREN NUXT AI SASS is a project developed by @derendev to explore the capabiliti
 - **Nuxt 3**: Leverages Nuxt 3 for server-side rendering, static site generation, and intuitive file-based routing, enhancing SEO and improving performance.
 - **ShadCN Vue**: Integrates the ShadCN Vue library for additional UI components and utilities, enriching the application's interface and functionality. For more information, visit [ShadCN Vue](https://www.shadcn-vue.com/).
 
-## Getting Started
+## Technologies Used
 
-To get a local copy up and running, follow these simple steps.
-
-### Installation
-
-1. Clone the repo
-   ```bash
-   git clone https://github.com/your-username/DEREN-NUXT-AI-SASS.git
-   ```
+- Vue 3
+- Nuxt 3
+- ShadCN Vue

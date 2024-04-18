@@ -39,5 +39,6 @@ export const dashboardRoutes = [
     label: 'Settings',
     icon: 'lucide:settings',
     link: '/settings',
+    color: 'text-green-700',
   },
 ]

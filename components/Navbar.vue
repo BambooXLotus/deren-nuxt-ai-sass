@@ -28,7 +28,7 @@
             </div>
           </div>
           <DropdownMenuSeparator />
-          <DropdownMenuItem>
+          <DropdownMenuItem @click="logout">
             <Icon
               class="mr-2 h-4 w-4"
               name="i-heroicons-arrow-left-on-rectangle"
@@ -43,6 +43,13 @@
 
 <script setup lang="ts">
 const user = useSupabaseUser()
+const supabaseClient = useSupabaseClient()
+const router = useRouter()
+
+async function logout() {
+  await supabaseClient.auth.signOut()
+  router.push('/auth')
+}
 </script>
 
 <style scoped></style>

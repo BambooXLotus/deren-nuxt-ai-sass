@@ -29,6 +29,6 @@ import { ThemeSupa } from '@supabase/auth-ui-shared'
 const supabaseClient = useSupabaseClient()
 
 definePageMeta({
-  layouts: 'home',
+  layout: 'home',
 })
 </script>

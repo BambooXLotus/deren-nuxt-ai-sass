@@ -1,5 +1,6 @@
 <template>
   <div class="flex items-center p-4">
+    <MobileSidebar />
     <div class="flex w-full justify-end">
       <DropdownMenu>
         <DropdownMenuTrigger as-child>
